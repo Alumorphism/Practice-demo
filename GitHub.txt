@@ -1,0 +1,43 @@
+1. GitHub Account:
+
+(a) Create a new repository: Practice-demo
+    engagement -> shaadi
+        add    -> commit
+
+2. Setting up Git:
+(a) VS Code
+(b) Windows (Git Bash)
+
+3. Configuring Git:
+
+(a) git config --global user.name <My name>
+(b) git config --global user.email <GitHub er email>
+(c) git config --list
+
+4. Clone & Status:
+
+(a) Clone  - Cloning a repository on our local machine
+
+        (i) git clone <link>
+        (repository >> (<>code) >> HTTPS >> <copy link>)
+
+(b) Status - Displays the state of the Code
+        (ii) git status
+
+5. IDK:
+(a) untracked: new files that git doesn't yet track
+(b) modified: changed
+(c) staged: file is ready to be committed
+(d) unmodified: unchanged 
+
+6. Add & commit:
+(a) git add <file name>
+
+-----------------------------------------------------------------------
+1. git --version 		(version check)
+2. ls                   (All files show hidden file excluded)
+3. ls -a                (Hidden file included)
+3. Clear                (Clear all like cls)
+4. git add <file name>  (Add specific file)
+   git add .            (Adds all the the file)
+5. git commit -m "comment"
