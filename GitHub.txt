@@ -32,12 +32,31 @@
 
 6. Add & commit:
 (a) git add <file name>
+(b) git commit -m "comment"
+
+7. Push Command
+(a) push = upload local repo content to remmote repo
+        (i) git push origin main
+        origin = name & main = branch name GitHub
+
+8. Init Command:
+(a) init - Used to create a new git repo
+        (i)     git init
+        (ii)    git remove add origin <link>
+        (iii)   git remove -v (to verify remote)
+        (iv)    git branch (to check branch)
+        (v)     git branch -M main (to rename branch)
+        (vi)    git push origin main
+
 
 -----------------------------------------------------------------------
-1. git --version 		(version check)
-2. ls                   (All files show hidden file excluded)
-3. ls -a                (Hidden file included)
-3. Clear                (Clear all like cls)
-4. git add <file name>  (Add specific file)
-   git add .            (Adds all the the file)
-5. git commit -m "comment"
+1. cd <folder name>         (to enter a folder)
+2. cd ..                    (to exit folder)
+3. git --version 		    (version check)
+4. ls                       (All files show hidden file excluded)
+5. ls -a                    (Hidden file included)
+6. Clear                    (Clear all like cls)
+7. git add <file name>      (Add specific file)
+   git add .                (Adds all the the file)
+8. git commit -m "comment"  (Commiting)
+9. mkdir <foldername>       (create new Directory/Folder)
